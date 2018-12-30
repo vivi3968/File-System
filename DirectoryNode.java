@@ -1,10 +1,3 @@
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 5
- * CSE214, R11 (Reed Gantz)
- */ 
-
 /**
  * @author vivi3
  * Represents a node in the file tre
@@ -18,15 +11,10 @@ public class DirectoryNode {
 	private DirectoryNode parent;
 	private boolean isFile;
 
-	
-	/**
-	 * Empty constructor for nod
-	 */
 	public DirectoryNode() {	
 	}
 	
 	/**
-	 * Constructor with parameters for node
 	 * @param name of node in the tree
 	 * @param isFile differentiates between file and folder
 	 */
@@ -56,7 +44,6 @@ public class DirectoryNode {
 	}
 
 	/**
-	 * Accessor method for name 
 	 * @return name of string
 	 */
 	public String getName() {
@@ -64,7 +51,6 @@ public class DirectoryNode {
 	}
 
 	/**
-	 * Mutator method for name
 	 * @param name of string
 	 */
 	public void setName(String name) {
@@ -72,7 +58,6 @@ public class DirectoryNode {
 	}
 
 	/**
-	 * Accessor method for left child
 	 * @return node of left child
 	 */
 	public DirectoryNode getLeft() {
@@ -80,7 +65,6 @@ public class DirectoryNode {
 	}
 
 	/**
-	 * Mutator method for left child
 	 * @param left child
 	 */
 	public void setLeft(DirectoryNode left) {
@@ -88,7 +72,6 @@ public class DirectoryNode {
 	}
 
 	/**
-	 * Accessor method for middle child
 	 * @return middle child
 	 */
 	public DirectoryNode getMiddle() {
@@ -96,7 +79,6 @@ public class DirectoryNode {
 	}
 
 	/**
-	 * Mutator method node for middle child
 	 * @param middle child
 	 */
 	public void setMiddle(DirectoryNode middle) {
@@ -104,7 +86,6 @@ public class DirectoryNode {
 	}
 
 	/**
-	 * Accessor method for right child
 	 * @return right child
 	 */
 	public DirectoryNode getRight() {
@@ -112,7 +93,6 @@ public class DirectoryNode {
 	}
 
 	/**
-	 * Mutator method for right child
 	 * @param right child
 	 */
 	public void setRight(DirectoryNode right) {
@@ -120,7 +100,6 @@ public class DirectoryNode {
 	}
 	
 	/**
-	 * Accessor method for determining whether a node is a file or folder
 	 * @return true if the node is not a directory (folder)
 	 */
 	public boolean getIsFile() {
@@ -128,7 +107,6 @@ public class DirectoryNode {
 	}
 
 	/**
-	 * Mutator method for determining whether a node is a file or folder
 	 * @param isFile
 	 */
 	public void setFile(boolean isFile) {
