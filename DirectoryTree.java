@@ -1,10 +1,3 @@
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 5
- * CSE214, R11 (Reed Gantz)
- */ 
-
 /**
  * @author vivi3
  * Implements a ternary (3-child) tree of DirectoryNodes
