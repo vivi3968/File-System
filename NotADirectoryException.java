@@ -1,10 +1,3 @@
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 5
- * CSE214, R11 (Reed Gantz)
- */ 
-
 /**
  * @author vivi3
  * Thrown if the current node is a file, as files cannot contain DirectoryNode references
