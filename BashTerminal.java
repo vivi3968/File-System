@@ -1,12 +1,5 @@
 import java.util.Scanner;
 
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 5
- * CSE214, R11 (Reed Gantz)
- */ 
-
 public class BashTerminal {
 
 	public static void main(String[] args) {
